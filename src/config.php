@@ -3,10 +3,10 @@
 declare(strict_types=1);
 
 spl_autoload_register(function (string $name) {
-	$name = str_replace(['CSApp\\', '\\'], ['', '/'], $name);
-	$path = 'src/' . $name . '.php';
+    $name = str_replace(['CSApp\\', '\\'], ['', '/'], $name);
+    $path = 'src/' . $name . '.php';
 
-	require_once($path);
+    require_once($path);
 });
 
 const ENABLE_DEBUG = TRUE;

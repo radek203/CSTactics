@@ -6,10 +6,10 @@ namespace CSApp\Model;
 
 abstract class AbstractModel
 {
-	protected DatabaseConnection $db;
+    protected DatabaseConnection $db;
 
-	public function __construct(DatabaseConnection $db)
-	{
-		$this->db = $db;
-	}
+    public function __construct(DatabaseConnection $db)
+    {
+        $this->db = $db;
+    }
 }

@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace CSApp\Model;
 
-class ObjectMapper {
+class ObjectMapper
+{
 
     public static function mapToMapClass(array $arr): Map
     {

@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 namespace CSApp\Model;
 
-class Tactic {
+class Tactic
+{
 
     private int $id;
     private string $name;

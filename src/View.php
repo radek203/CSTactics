@@ -8,8 +8,8 @@ class View
 {
 
     public function display(array $params, array $config): void
-	{
-		require_once('templates/layout.php');
-	}
+    {
+        require_once('templates/layout.php');
+    }
 
 }
